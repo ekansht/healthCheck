@@ -7,3 +7,6 @@ var statusReport = require("./rssConfig.json");
 app.get("/check/hash", (req, res) => {
   res.send(sha(JSON.stringify(statusReport)), 200);
 });
+
+
+// z/
